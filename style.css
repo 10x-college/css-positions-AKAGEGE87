@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    max-width: 1440px;
+    height: 100vh;
+    max-height: 720px;
+    background-color: #19A1AE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ margin: auto;
+ overflow: hidden;
+ position: relative;
+}
+
+.circle{
+    width: 978px;
+    height: 978px;
+    /* background-color: #53FFEE; */
+    background: linear-gradient(180deg, #0989B4, #53FFEE);
+    border-radius: 50%;
+    position: absolute;
+    top: -30%;
+    left: 0%;
+    transform: translate(-40%, -40%);
+}
+
+.circle2{
+    width: 978px;
+    height: 978px;
+    /* background-color: #53FFEE; */
+    border-radius: 50%;
+    position: absolute;
+    bottom: -30%;
+    right: 0;
+    transform: translate(40%,40%);
+    background: linear-gradient(180deg, #0989B4, #53FFEE);
+}
+
+.card{
+    /* position: relative; */
+    width: 350px;
+    background-color: #FFFFFF;
+    position: absolute;
+        top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.background{
+    background-color: #19A1AE;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.profile{
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    position: absolute;
+    /* top: 50%; */
+    top: 146px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    
+}
+
+.name{
+    margin-top: 75px;
+    color: #2E3349;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.age{
+    color: #6B7082;
+    font-weight: regular;
+    margin-bottom: 8px;
+}
+.location{
+    font-size: 14px;
+    color: #6B7082;
+    font-weight: regular;
+    margin-bottom: 24px;
+}
+
+.reactions{
+    padding: 25px 49px;
+}
+
+.reactions {
+    display: flex;
+    justify-content: space-between;
+}
+.reaction{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.reaction_text{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 10px;
+    font-weight: regular;
+    color: #6B7082;
+}

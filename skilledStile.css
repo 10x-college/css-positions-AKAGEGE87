@@ -1,0 +1,90 @@
+*{
+ margin: 0;
+padding: 0;
+box-sizing: border-box;
+border: none;
+}
+
+body{
+   background-color: #1e1e1e;
+}
+
+.container{
+    max-width: 1440px;
+    margin: auto;
+    background-color: #eeeeee;
+}
+
+header{
+    padding: 24px 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.skilled{
+    color: #13183f;
+    font-weight: bold;
+}
+
+.header_btn{
+padding: 16px 32px;
+background-color: #13183f;
+color: #eeeeee;
+border-radius: 28px;
+font-weight: bold;
+font-size: 18px;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    max-width: 1120px;
+    margin: auto;
+
+}
+
+.hero_text{
+    width: 50%;
+      display: flex;
+    flex-direction: column;
+    /* justify-content: left; */
+    align-items: start;
+    gap: 24px;
+    padding-right: 87px;
+}
+
+.hero_text_h2{
+    font-size: 56px;
+    font-weight: 800;
+    color: #13183f;
+  
+}
+
+.hero_text_p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #83869a;
+}
+
+.hero_text_btn{
+padding: 16px 32px;
+background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+color: #eeeeee;
+border-radius: 28px;
+font-weight: bold;
+font-size: 18px;
+}
+
+.hero_image{
+       width: 50%;
+}
+
+.hero_image_div{
+    padding-top: 77px;
+    overflow: hidden;
+    max-width: 317px;
+    border-radius: 48%;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+}
